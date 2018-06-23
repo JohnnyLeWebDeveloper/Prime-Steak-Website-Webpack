@@ -1,0 +1,45 @@
+
+.top-image {
+  position: relative;
+  background-color: #000;
+  height: 500px;
+  background: url(../img/background.jpeg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  .introduction-title {
+    padding: 200px 0 50px;
+    text-align: center;
+    h5 {
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: 300;
+    }
+    h1 {
+      text-transform: uppercase;
+      color: #fff;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 4rem;
+    }
+  }
+  .contact-info {
+    position: absolute;
+    right: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    strong {
+      font-weight: bold;
+    }
+    .book-reservation {
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  }
+}
