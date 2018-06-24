@@ -1,16 +1,18 @@
 #reviews {
   padding: 100px 0;
   text-align: right;
+
   .side-image {
     position: relative;
+
     img {
-      position: absolute;
       width: 100%;
     }
   }
 
   .arrows {
-    .fa-arrow-left, .fa-arrow-right {
+    .fa-arrow-left,
+    .fa-arrow-right {
       font-size: 1.5rem;
       padding: 20px 10px;
       cursor: pointer;
@@ -29,6 +31,7 @@
     font-size: 1rem;
     margin-bottom: 2rem;
   }
+
   .review-paragraph {
     font-family: 'Open Sans', sans-serif;
     padding: 20px;
@@ -42,6 +45,7 @@
   color: $paragraphColor;
   font-weight: 300;
   text-transform: capitalize;
+
   strong {
     color: $blackColor;
     font-weight: 600;

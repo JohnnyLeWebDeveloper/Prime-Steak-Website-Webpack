@@ -1,38 +1,52 @@
-
 #contact-us {
+  background-color: #f1d9c2;
   padding: 100px 0;
 
   h2,
   h5 {
     text-align: center;
   }
+
   .box {
     padding: 70px;
     background-color: #fff;
+
     .city {
       margin-bottom: 2rem;
       font-size: 2rem;
-      font-family: font-family: 'Open Sans', sans-serif;
+      font-family: 'Open Sans', sans-serif;
     }
+
     h6 {
       font-size: 0.9rem;
-      font-weight: 600;
+      font-weight: 400;
       color: $titleColor;
       line-height: 1.7;
+      color: $blackColor;
     }
+
     p {
+      margin-bottom: 20px;
       font-weight: 400;
+
       strong {
         color: $blackColor;
         font-weight: 600;
         text-transform: capitalize;
       }
+
       a {
         color: $paragraphColor;
+
         &:hover {
           color: $redColor;
+          font-weight: 600;
         }
       }
     }
   }
+}
+
+.address-height {
+  height: 276px;
 }

@@ -40,33 +40,37 @@ exports.default = App;
 
 var _hyperapp = __webpack_require__(0);
 
-var _Header = __webpack_require__(5);
+var _Header = __webpack_require__(6);
 
 var _Header2 = _interopRequireDefault(_Header);
 
-var _TopImage = __webpack_require__(10);
+var _TopImage = __webpack_require__(11);
 
 var _TopImage2 = _interopRequireDefault(_TopImage);
 
-var _OurStory = __webpack_require__(6);
+var _OurStory = __webpack_require__(7);
 
 var _OurStory2 = _interopRequireDefault(_OurStory);
 
-var _SpecialMenu = __webpack_require__(9);
+var _SpecialMenu = __webpack_require__(10);
 
 var _SpecialMenu2 = _interopRequireDefault(_SpecialMenu);
 
-var _RandomQuote = __webpack_require__(7);
+var _RandomQuote = __webpack_require__(8);
 
 var _RandomQuote2 = _interopRequireDefault(_RandomQuote);
 
-var _Reviews = __webpack_require__(8);
+var _Reviews = __webpack_require__(9);
 
 var _Reviews2 = _interopRequireDefault(_Reviews);
 
 var _ContactUs = __webpack_require__(4);
 
 var _ContactUs2 = _interopRequireDefault(_ContactUs);
+
+var _Footer = __webpack_require__(5);
+
+var _Footer2 = _interopRequireDefault(_Footer);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -83,7 +87,8 @@ function App(_ref) {
     (0, _hyperapp.h)(_SpecialMenu2.default, { state: state, actions: actions }),
     (0, _hyperapp.h)(_RandomQuote2.default, { state: state, actions: actions }),
     (0, _hyperapp.h)(_Reviews2.default, { state: state, actions: actions }),
-    (0, _hyperapp.h)(_ContactUs2.default, { state: state, actions: actions })
+    (0, _hyperapp.h)(_ContactUs2.default, { state: state, actions: actions }),
+    (0, _hyperapp.h)(_Footer2.default, { state: state, actions: actions })
   );
 }
 
@@ -119,11 +124,200 @@ function ContactUs(_ref) {
   var state = _ref.state,
       actions = _ref.actions;
 
-  return (0, _hyperapp.h)("section", { id: "contact-us" });
+  return (0, _hyperapp.h)(
+    "section",
+    { id: "contact-us" },
+    (0, _hyperapp.h)(
+      "div",
+      { "class": "container" },
+      (0, _hyperapp.h)(
+        "h5",
+        { "class": "comp-title" },
+        "Contact Us"
+      ),
+      (0, _hyperapp.h)(
+        "h2",
+        null,
+        "Delicious Flavors"
+      ),
+      (0, _hyperapp.h)(
+        "div",
+        { "class": "box" },
+        (0, _hyperapp.h)(
+          "div",
+          { "class": "row" },
+          (0, _hyperapp.h)(
+            "div",
+            { "class": "col-md-6 address-height" },
+            (0, _hyperapp.h)(
+              "div",
+              { "class": "city" },
+              "Atlanta, Georgia"
+            ),
+            (0, _hyperapp.h)(
+              "h6",
+              { "class": "address" },
+              "435 Peachtree Road, Atlanta GA"
+            ),
+            (0, _hyperapp.h)(
+              "p",
+              null,
+              (0, _hyperapp.h)(
+                "strong",
+                null,
+                "Email:"
+              ),
+              "info@steakrestaurant.com"
+            )
+          ),
+          (0, _hyperapp.h)(
+            "div",
+            { "class": "col-md-6" },
+            (0, _hyperapp.h)(
+              "h6",
+              null,
+              "Phone:"
+            ),
+            (0, _hyperapp.h)(
+              "div",
+              { "class": "city" },
+              "123-123-1234"
+            ),
+            (0, _hyperapp.h)(
+              "h6",
+              null,
+              "Lunch Service:"
+            ),
+            (0, _hyperapp.h)(
+              "p",
+              null,
+              "Friday, Saturday, & Sunday",
+              (0, _hyperapp.h)("br", null),
+              "Bookings from 12PM-2PM"
+            ),
+            (0, _hyperapp.h)(
+              "h6",
+              null,
+              "Dinner Service:"
+            ),
+            (0, _hyperapp.h)(
+              "p",
+              null,
+              "Daily",
+              (0, _hyperapp.h)("br", null),
+              "Bookings from 5PM-9:30PM"
+            )
+          )
+        )
+      )
+    )
+  );
 }
 
 /***/ }),
 /* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Footer;
+
+var _hyperapp = __webpack_require__(0);
+
+function Footer(_ref) {
+  var state = _ref.state,
+      actions = _ref.actions;
+
+  return (0, _hyperapp.h)(
+    "footer",
+    null,
+    (0, _hyperapp.h)(
+      "div",
+      { "class": "container" },
+      (0, _hyperapp.h)(
+        "nav",
+        { "class": "menu" },
+        (0, _hyperapp.h)(
+          "a",
+          { href: "#" },
+          "Our Story"
+        ),
+        (0, _hyperapp.h)(
+          "a",
+          { href: "#" },
+          "Reviews"
+        ),
+        (0, _hyperapp.h)(
+          "a",
+          { href: "#" },
+          "Special Menu"
+        ),
+        (0, _hyperapp.h)(
+          "a",
+          { href: "#" },
+          "Reservations"
+        ),
+        (0, _hyperapp.h)(
+          "a",
+          { href: "#" },
+          "Contact Us"
+        )
+      ),
+      (0, _hyperapp.h)(
+        "div",
+        { "class": "social-media" },
+        (0, _hyperapp.h)(
+          "li",
+          null,
+          (0, _hyperapp.h)(
+            "a",
+            { href: "#", target: "new" },
+            (0, _hyperapp.h)("i", { "class": "fab fa-facebook" })
+          )
+        ),
+        (0, _hyperapp.h)(
+          "li",
+          null,
+          (0, _hyperapp.h)(
+            "a",
+            { href: "#", target: "new" },
+            (0, _hyperapp.h)("i", { "class": "fab fa-twitter" })
+          )
+        ),
+        (0, _hyperapp.h)(
+          "li",
+          null,
+          (0, _hyperapp.h)(
+            "a",
+            { href: "#", target: "new" },
+            (0, _hyperapp.h)("i", { "class": "fab fa-instagram" })
+          )
+        ),
+        (0, _hyperapp.h)(
+          "li",
+          null,
+          (0, _hyperapp.h)(
+            "a",
+            { href: "#", target: "new" },
+            (0, _hyperapp.h)("i", { "class": "fab fa-linkedin" })
+          )
+        )
+      ),
+      (0, _hyperapp.h)(
+        "div",
+        { "class": "copyright" },
+        "Copyright \xA9 2018"
+      )
+    )
+  );
+}
+
+/***/ }),
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -157,22 +351,17 @@ function Header(_ref) {
         (0, _hyperapp.h)(
           "a",
           { href: "#" },
-          "Menu"
+          "Our Story"
         ),
         (0, _hyperapp.h)(
           "a",
           { href: "#" },
-          "Party Platters"
+          "Reviews"
         ),
         (0, _hyperapp.h)(
           "a",
           { href: "#" },
-          "Locations"
-        ),
-        (0, _hyperapp.h)(
-          "a",
-          { href: "#" },
-          "Rewards"
+          "Special Menu"
         ),
         (0, _hyperapp.h)(
           "a",
@@ -185,7 +374,7 @@ function Header(_ref) {
 }
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -232,7 +421,7 @@ function OurStory(_ref) {
           (0, _hyperapp.h)(
             "div",
             { "class": "quote" },
-            "\"The best Steakhouse in town.\" - ",
+            "\"The best Steakhouse in town.\" -",
             (0, _hyperapp.h)(
               "strong",
               null,
@@ -256,7 +445,7 @@ function OurStory(_ref) {
 }
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -294,7 +483,7 @@ function RandomQuote(_ref) {
 }
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -322,16 +511,16 @@ function Reviews(_ref) {
         { "class": "row" },
         (0, _hyperapp.h)(
           "div",
-          { "class": "col-md-8" },
+          { "class": "col-md-6" },
           (0, _hyperapp.h)(
             "div",
             { "class": "side-image" },
-            (0, _hyperapp.h)("img", { src: "#", alt: "Chef Image" })
+            (0, _hyperapp.h)("img", { src: "/img/primerib.jpg", alt: "Chef Image" })
           )
         ),
         (0, _hyperapp.h)(
           "div",
-          { "class": "col-md-4" },
+          { "class": "col-md-6" },
           (0, _hyperapp.h)(
             "h5",
             { "class": "food-details" },
@@ -375,7 +564,7 @@ function Reviews(_ref) {
 }
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -495,19 +684,15 @@ function SpecialMenu(_ref) {
       ),
       (0, _hyperapp.h)(
         "a",
-        { href: "javascript:fullMenuComingSoon();", "class": "link" },
+        { href: "#", "class": "link" },
         "View Our Full Menu"
       )
     )
   );
 }
 
-function fullMenuComingSoon() {
-  alert("Full Menu is coming soon!");
-}
-
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -565,19 +750,21 @@ function Top(_ref) {
           (0, _hyperapp.h)(
             "div",
             { "class": "hours-of-operation" },
-            "Opening Hours ",
+            "Opening Hours",
+            (0, _hyperapp.h)("br", null),
             (0, _hyperapp.h)(
               "strong",
               null,
-              "Monday - Friday: "
+              "Monday - Friday:"
             ),
-            " 9AM - 11PM EST",
+            "9AM - 11PM EST",
+            (0, _hyperapp.h)("br", null),
             (0, _hyperapp.h)(
               "strong",
               null,
-              "Saturday - Sunday: "
+              "Saturday - Sunday:"
             ),
-            " 9AM - 11PM EST"
+            "9AM - 11PM EST"
           )
         )
       )
@@ -586,7 +773,7 @@ function Top(_ref) {
 }
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -628,4 +815,4 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 });
 
 /***/ })
-],[11]);
+],[12]);

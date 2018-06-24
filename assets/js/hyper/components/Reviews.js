@@ -5,12 +5,12 @@ export default function Reviews({state, actions}) {
     <section id="reviews">
       <div class="container">
         <div class="row">
-          <div class="col-md-8">
+          <div class="col-md-6">
             <div class="side-image">
-            <img src="#" alt="Chef Image" />
+            <img src="/img/primerib.jpg" alt="Chef Image" />
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <h5 class="food-details">REVIEWS</h5>
             <h2 class="food-network">The Food Network</h2>
             <h4>Best restaurant in Atlanta!</h4>
