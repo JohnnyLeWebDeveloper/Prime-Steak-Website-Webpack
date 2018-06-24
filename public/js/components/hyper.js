@@ -255,7 +255,7 @@ function SpecialMenu(_ref) {
       ),
       (0, _hyperapp.h)(
         "div",
-        { "class": "row" },
+        { "class": "row boxes" },
         (0, _hyperapp.h)(
           "div",
           { "class": "col-md-4" },
@@ -269,30 +269,79 @@ function SpecialMenu(_ref) {
                 "div",
                 { "class": "price-circle" },
                 "$25"
-              ),
-              (0, _hyperapp.h)(
-                "span",
-                { "class": "title" },
-                "Super BBQ Grill"
-              ),
-              (0, _hyperapp.h)(
-                "p",
-                { "class": "food-details" },
-                "Fried Eggs, Steak, Baked Potato or French Fries. Side of vegetables."
               )
+            ),
+            (0, _hyperapp.h)(
+              "span",
+              { "class": "title" },
+              "Super BBQ Grill"
+            ),
+            (0, _hyperapp.h)(
+              "p",
+              { "class": "food-details" },
+              "Fried Eggs, Steak, Baked Potato or French Fries. Side of vegetables."
             )
           )
         ),
         (0, _hyperapp.h)(
           "div",
           { "class": "col-md-4" },
-          (0, _hyperapp.h)("div", { "class": "box" })
+          (0, _hyperapp.h)(
+            "div",
+            { "class": "box" },
+            (0, _hyperapp.h)(
+              "div",
+              { "class": "box-image" },
+              (0, _hyperapp.h)(
+                "div",
+                { "class": "price-circle" },
+                "$25"
+              )
+            ),
+            (0, _hyperapp.h)(
+              "span",
+              { "class": "title" },
+              "Super BBQ Grill"
+            ),
+            (0, _hyperapp.h)(
+              "p",
+              { "class": "food-details" },
+              "Fried Eggs, Steak, Baked Potato or French Fries. Side of vegetables."
+            )
+          )
         ),
         (0, _hyperapp.h)(
           "div",
           { "class": "col-md-4" },
-          (0, _hyperapp.h)("div", { "class": "box" })
+          (0, _hyperapp.h)(
+            "div",
+            { "class": "box" },
+            (0, _hyperapp.h)(
+              "div",
+              { "class": "box-image" },
+              (0, _hyperapp.h)(
+                "div",
+                { "class": "price-circle" },
+                "$25"
+              )
+            ),
+            (0, _hyperapp.h)(
+              "span",
+              { "class": "title" },
+              "Super BBQ Grill"
+            ),
+            (0, _hyperapp.h)(
+              "p",
+              { "class": "food-details" },
+              "Fried Eggs, Steak, Baked Potato or French Fries. Side of vegetables."
+            )
+          )
         )
+      ),
+      (0, _hyperapp.h)(
+        "a",
+        { href: "#", "class": "link" },
+        "View Our Full Menu"
       )
     )
   );

@@ -1,18 +1,19 @@
-
 #special-menu {
   padding: 100px 0;
   background-color: #fafafa;
+
   h5 {
     color: #1b1b1b;
     font-size: 0.9rem;
-    margin: .5rem 0 1rem;
+    margin: 0.5rem 0 1rem;
     text-transform: uppercase;
     letter-spacing: 5px;
     text-align: center;
   }
+
   h2 {
     font-size: 2rem;
-    margin: .5rem 0 3rem;
+    margin: 0.5rem 0 3rem;
     text-transform: capitalize;
     text-align: center;
   }
@@ -21,54 +22,72 @@
 .box {
   background-color: #fff;
   padding: 20px;
+
   .box-image {
-    margin-bottom: 50px;
+    margin-bottom: 75px;
     position: relative;
     width: 100%;
     height: 200px;
-    background: url(../img/image1.jpeg) no-repeat center center;
+    background: url("../img/image1.jpeg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
+
   .price-circle {
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 50%);
+    -webkit-box-shadow: 0 0 0 10px rgba(255,255,255,0.38);
+    -moz-box-shadow: 0 0 0 10px rgba(255,255,255,0.38);
+    box-shadow: 0 0 0 10px rgba(255,255,255,0.38);
     margin: 0 auto;
-    font-size: 2rem;
+    font-size: 2.7rem;
     background-color: #fff;
     border-radius: 50%;
-    border: 10px solid rgba(255,255,255, .7);
     height: 100px;
     width: 100px;
     display: -webkit-box;
-  /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box;
-  /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox;
-  /* TWEENER - IE 10 */
-  display: -webkit-flex;
-  /* NEW - Chrome */
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;
+    /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    /* NEW - Chrome */
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   .title {
     display: block;
     font-weight: 600;
-    font-size: .9rem;
+    font-size: 0.9rem;
     text-align: center;
   }
+
   .food-details {
     font-weight: 300;
     font-size: 0.8rem;
     text-align: center;
+    line-height: 2;
+    margin: 0;
   }
+}
+
+.boxes {
+  padding-bottom: 50px;
+}
+
+a.link {
+  color: #000;
+  text-align: center;
+  display: block;
 }

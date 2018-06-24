@@ -5,5 +5,13 @@ $grid-max-width: 1200px; //breakpoint-small
 $breakpoint-xs: "only screen and (min-width: 0px)";
 $breakpoint-small: "only screen and (min-width: 451px)";
 $breakpoint-medium: "only screen and (min-width: 768px)";
-$breakpoint-large: "only screen and (min-width: 1008px)";
-$breakpoint-xl: "only screen and (min-width: 1300px)";
+$breakpoint-large: "only screen and (min-width: 980px)";
+$breakpoint-xl: "only screen and (min-width: 1200px)";
+
+// Title Colors
+$titleColor: #AAAAAA;
+$paragraphColor: #ADADAD;
+$footerBackground: #131A22;
+$blackColor: #202020;
+$redColor: #911A20;
+$greenColor: #4D6010;
