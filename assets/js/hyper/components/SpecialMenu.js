@@ -11,8 +11,8 @@ export default function SpecialMenu({state, actions}) {
             <div class="box">
               <div class="box-image">
                 <div class="price-circle">$25</div>
-                <span class="title">Super BBQ Grill</span>
-                <p class="food-details">Fried Eggs, Steak, Baked Potato or French Fries. Side of vegetables.</p>
+                  <span class="title">Super BBQ Grill</span>
+                  <p class="food-details">Fried Eggs, Steak, Baked Potato or French Fries. Side of vegetables.</p>
               </div>
             </div>
           </div>
