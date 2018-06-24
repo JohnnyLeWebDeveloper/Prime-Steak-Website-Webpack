@@ -1,8 +1,9 @@
 .top-image {
   position: relative;
   background-color: #000;
-  height: 500px;
-  background: url("../img/background.jpeg") no-repeat center center;
+  min-height: 500px;
+  height: 100vh;
+  background: url("../img/background1.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,21 +22,25 @@
     h1 {
       text-transform: uppercase;
       color: #fff;
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'Rozha One', serif;
       font-weight: 300;
-      font-size: 4rem;
+      font-size: 6rem;
     }
   }
 
   .contact-info {
+    width: 100%;
+    bottom: 50px;
+    right: 0;
     position: absolute;
     right: 40px;
     text-align: center;
-    color: #fff;
+    color: $paragraphColor;
     font-size: 0.9rem;
     line-height: 1.5rem;
 
     strong {
+      color: #fff;
       font-weight: bold;
     }
 

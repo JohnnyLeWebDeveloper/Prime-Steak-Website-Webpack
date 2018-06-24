@@ -10,14 +10,18 @@ export default function Top({state, actions}) {
           </h5>
           <h1>
             Prime Steak
+            <br />
+            Restaurant
           </h1>
         </div>
-        <div class="contact-info">
-          <div class="book-reservation">Book Reservation Directly</div>
-          <h2>123-123-1234</h2>
-          <div class="hours-of-operation">
-            Opening Hours <strong>Monday - Friday: </strong> 9AM - 11PM EST
-          <strong>Saturday - Sunday: </strong> 9AM - 11PM EST
+        <div class="container">
+          <div class="contact-info">
+            <div class="book-reservation">Book Reservation Directly</div>
+            <h2>123-123-1234</h2>
+            <div class="hours-of-operation">
+              Opening Hours <strong>Monday - Friday: </strong> 9AM - 11PM EST
+            <strong>Saturday - Sunday: </strong> 9AM - 11PM EST
+            </div>
           </div>
         </div>
       </div>

@@ -1,0 +1,23 @@
+#random-quote {
+  padding: 250px 0;
+  background: url("../img/image3.jpeg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  h1 {
+    color: #fff;
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .author {
+    color: #fff;
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 300;
+    display: block;
+  }
+}

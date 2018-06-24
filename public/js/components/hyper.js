@@ -44,7 +44,7 @@ var _Header = __webpack_require__(4);
 
 var _Header2 = _interopRequireDefault(_Header);
 
-var _TopImage = __webpack_require__(7);
+var _TopImage = __webpack_require__(8);
 
 var _TopImage2 = _interopRequireDefault(_TopImage);
 
@@ -52,9 +52,13 @@ var _OurStory = __webpack_require__(5);
 
 var _OurStory2 = _interopRequireDefault(_OurStory);
 
-var _SpecialMenu = __webpack_require__(6);
+var _SpecialMenu = __webpack_require__(7);
 
 var _SpecialMenu2 = _interopRequireDefault(_SpecialMenu);
+
+var _RandomQuote = __webpack_require__(6);
+
+var _RandomQuote2 = _interopRequireDefault(_RandomQuote);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -68,7 +72,8 @@ function App(_ref) {
     (0, _hyperapp.h)(_Header2.default, { state: state, actions: actions }),
     (0, _hyperapp.h)(_TopImage2.default, { state: state, actions: actions }),
     (0, _hyperapp.h)(_OurStory2.default, { state: state, actions: actions }),
-    (0, _hyperapp.h)(_SpecialMenu2.default, { state: state, actions: actions })
+    (0, _hyperapp.h)(_SpecialMenu2.default, { state: state, actions: actions }),
+    (0, _hyperapp.h)(_RandomQuote2.default, { state: state, actions: actions })
   );
 }
 
@@ -229,6 +234,44 @@ function OurStory(_ref) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.default = RandomQuote;
+
+var _hyperapp = __webpack_require__(0);
+
+function RandomQuote(_ref) {
+  var state = _ref.state,
+      actions = _ref.actions;
+
+  return (0, _hyperapp.h)(
+    "section",
+    { id: "random-quote" },
+    (0, _hyperapp.h)(
+      "div",
+      { "class": "container" },
+      (0, _hyperapp.h)(
+        "h1",
+        null,
+        "Simple ingredients prepared in a simple way - that's the best way to take your everyday cooking to a higher level."
+      ),
+      (0, _hyperapp.h)(
+        "span",
+        { "class": "author" },
+        "- Chef Rachael Lindsay -"
+      )
+    )
+  );
+}
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 exports.default = SpecialMenu;
 
 var _hyperapp = __webpack_require__(0);
@@ -340,15 +383,19 @@ function SpecialMenu(_ref) {
       ),
       (0, _hyperapp.h)(
         "a",
-        { href: "#", "class": "link" },
+        { href: "javascript:fullMenuComingSoon();", "class": "link" },
         "View Our Full Menu"
       )
     )
   );
 }
 
+function fullMenuComingSoon() {
+  alert("Full Menu is coming soon!");
+}
+
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -382,38 +429,44 @@ function Top(_ref) {
         (0, _hyperapp.h)(
           "h1",
           null,
-          "Prime Steak"
+          "Prime Steak",
+          (0, _hyperapp.h)("br", null),
+          "Restaurant"
         )
       ),
       (0, _hyperapp.h)(
         "div",
-        { "class": "contact-info" },
+        { "class": "container" },
         (0, _hyperapp.h)(
           "div",
-          { "class": "book-reservation" },
-          "Book Reservation Directly"
-        ),
-        (0, _hyperapp.h)(
-          "h2",
-          null,
-          "123-123-1234"
-        ),
-        (0, _hyperapp.h)(
-          "div",
-          { "class": "hours-of-operation" },
-          "Opening Hours ",
+          { "class": "contact-info" },
           (0, _hyperapp.h)(
-            "strong",
-            null,
-            "Monday - Friday: "
+            "div",
+            { "class": "book-reservation" },
+            "Book Reservation Directly"
           ),
-          " 9AM - 11PM EST",
           (0, _hyperapp.h)(
-            "strong",
+            "h2",
             null,
-            "Saturday - Sunday: "
+            "123-123-1234"
           ),
-          " 9AM - 11PM EST"
+          (0, _hyperapp.h)(
+            "div",
+            { "class": "hours-of-operation" },
+            "Opening Hours ",
+            (0, _hyperapp.h)(
+              "strong",
+              null,
+              "Monday - Friday: "
+            ),
+            " 9AM - 11PM EST",
+            (0, _hyperapp.h)(
+              "strong",
+              null,
+              "Saturday - Sunday: "
+            ),
+            " 9AM - 11PM EST"
+          )
         )
       )
     )
@@ -421,7 +474,7 @@ function Top(_ref) {
 }
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -463,4 +516,4 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 });
 
 /***/ })
-],[8]);
+],[9]);

@@ -35,8 +35,12 @@ export default function SpecialMenu({state, actions}) {
             </div>
           </div>
         </div>
-        <a href="#" class="link">View Our Full Menu</a>
+        <a href="javascript:fullMenuComingSoon();" class="link">View Our Full Menu</a>
       </div>
     </section>
   )
+}
+
+function fullMenuComingSoon() {
+  alert("Full Menu is coming soon!");
 }
