@@ -28,7 +28,31 @@
     position: relative;
     width: 100%;
     height: 200px;
-    background: url("../img/image1.jpeg") no-repeat center center;
+    background: url("../img/image-col-1.jpeg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .box-image2 {
+    margin-bottom: 75px;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: url("../img/image-col-2.jpeg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .box-image3 {
+    margin-bottom: 75px;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: url("../img/image-col-3.jpeg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -87,6 +111,7 @@
 }
 
 a.link {
+  font-size: 1.5rem;
   color: #000;
   text-align: center;
   display: block;

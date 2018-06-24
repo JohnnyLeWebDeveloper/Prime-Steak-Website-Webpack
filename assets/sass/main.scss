@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rozha+One');
 @import "Variables";
 @import "Grid";
+@import "Global";
 @import "Header";
 @import "TopImage";
 @import "OurStory";
@@ -20,4 +21,5 @@
 
 body {
   font-family: 'Rozha One', serif;
+  color: $blackColor;
 }

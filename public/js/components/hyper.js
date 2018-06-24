@@ -320,7 +320,15 @@ function Reviews(_ref) {
       (0, _hyperapp.h)(
         "div",
         { "class": "row" },
-        (0, _hyperapp.h)("div", { "class": "col-md-8" }),
+        (0, _hyperapp.h)(
+          "div",
+          { "class": "col-md-8" },
+          (0, _hyperapp.h)(
+            "div",
+            { "class": "side-image" },
+            (0, _hyperapp.h)("img", { src: "#", alt: "Chef Image" })
+          )
+        ),
         (0, _hyperapp.h)(
           "div",
           { "class": "col-md-4" },
@@ -341,12 +349,12 @@ function Reviews(_ref) {
           ),
           (0, _hyperapp.h)(
             "p",
-            null,
-            "Hello Hello Hello"
+            { "class": "review-paragraph" },
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis ex pariatur necessitatibus labore ab, fugiat sint quo eveniet aliquam eaque!"
           ),
           (0, _hyperapp.h)(
             "div",
-            { "class": "review-author" },
+            { "class": "author" },
             (0, _hyperapp.h)(
               "strong",
               null,
@@ -358,7 +366,7 @@ function Reviews(_ref) {
             "div",
             { "class": "arrows" },
             (0, _hyperapp.h)("i", { "class": "fas fa-arrow-left" }),
-            (0, _hyperapp.h)("i", { "class": "fas fa-arrow-right" })
+            (0, _hyperapp.h)("i", { "class": "fas fa-arrow-right ready" })
           )
         )
       )
@@ -438,7 +446,7 @@ function SpecialMenu(_ref) {
             { "class": "box" },
             (0, _hyperapp.h)(
               "div",
-              { "class": "box-image" },
+              { "class": "box-image2" },
               (0, _hyperapp.h)(
                 "div",
                 { "class": "price-circle" },
@@ -448,12 +456,12 @@ function SpecialMenu(_ref) {
             (0, _hyperapp.h)(
               "span",
               { "class": "title" },
-              "Super BBQ Grill"
+              "Classic Burger With Fries"
             ),
             (0, _hyperapp.h)(
               "p",
               { "class": "food-details" },
-              "Fried Eggs, Steak, Baked Potato or French Fries. Side of vegetables."
+              "Our thick 'n hearty burger on a toasted bakery bun. Served with lettuce, tomato, onion and pickles. Served with classic fries."
             )
           )
         ),
@@ -465,7 +473,7 @@ function SpecialMenu(_ref) {
             { "class": "box" },
             (0, _hyperapp.h)(
               "div",
-              { "class": "box-image" },
+              { "class": "box-image3" },
               (0, _hyperapp.h)(
                 "div",
                 { "class": "price-circle" },
@@ -475,12 +483,12 @@ function SpecialMenu(_ref) {
             (0, _hyperapp.h)(
               "span",
               { "class": "title" },
-              "Super BBQ Grill"
+              "Delicious Chocolate Cake"
             ),
             (0, _hyperapp.h)(
               "p",
               { "class": "food-details" },
-              "Fried Eggs, Steak, Baked Potato or French Fries. Side of vegetables."
+              "A variety of assorted desserts are available for the sweet tooth."
             )
           )
         )

@@ -1,19 +1,49 @@
 #reviews {
-  .reviews-title {
-    padding: 200px 0 50px;
-    text-align: center;
+  padding: 100px 0;
+  text-align: right;
+  .side-image {
+    position: relative;
+    img {
+      position: absolute;
+      width: 100%;
+    }
   }
-  .review-author {
 
-  }
   .arrows {
+    .fa-arrow-left, .fa-arrow-right {
+      font-size: 1.5rem;
+      padding: 20px 10px;
+      cursor: pointer;
+      color: $paragraphColor;
+    }
+  }
 
+  .fa-arrow-left.ready,
+  .fa-arrow-right.ready {
+    color: $blackColor;
+  }
+
+  h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  .review-paragraph {
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
   }
 }
 
-.h2 {
-  color: $blackColor;
-  font-size: 2rem;
-  margin: 0.5rem 0 3rem;
+.author {
+  margin-bottom: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  color: $paragraphColor;
+  font-weight: 300;
   text-transform: capitalize;
+  strong {
+    color: $blackColor;
+    font-weight: 600;
+  }
 }
