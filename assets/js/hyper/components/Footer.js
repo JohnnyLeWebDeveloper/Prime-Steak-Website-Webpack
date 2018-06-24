@@ -37,4 +37,4 @@ export default function Footer({state, actions}) {
       </div>
     </div>
   </footer>)
-}
+} 
