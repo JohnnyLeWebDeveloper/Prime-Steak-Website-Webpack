@@ -7,6 +7,32 @@
     text-align: center;
   }
   .box {
+    padding: 70px;
     background-color: #fff;
+    .city {
+      margin-bottom: 2rem;
+      font-size: 2rem;
+      font-family: font-family: 'Open Sans', sans-serif;
+    }
+    h6 {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: $titleColor;
+      line-height: 1.7;
+    }
+    p {
+      font-weight: 400;
+      strong {
+        color: $blackColor;
+        font-weight: 600;
+        text-transform: capitalize;
+      }
+      a {
+        color: $paragraphColor;
+        &:hover {
+          color: $redColor;
+        }
+      }
+    }
   }
 }
