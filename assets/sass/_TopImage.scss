@@ -3,7 +3,7 @@
   background-color: #000;
   min-height: 500px;
   height: 100vh;
-  background: url("../img/background1.jpg") no-repeat center center;
+  background: url("../img/background.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,12 +12,37 @@
   .introduction-title {
     padding: 200px 0 50px;
     text-align: center;
+    margin: 0 auto;
 
     h5 {
-      font-size: 1.1rem;
+      font-size: 12px;
       text-transform: uppercase;
       color: #fff;
       font-weight: 300;
+    }
+
+    @media (min-with: 530px) {
+      h5 {
+        font-size: 14px;
+      }
+    }
+
+    @media (min-with: 768px) {
+      h5 {
+
+      }
+    }
+
+    @media (min-with: 980px) {
+      h5 {
+
+      }
+    }
+
+    @media (min-with: 1200px) {
+      h5 {
+
+      }
     }
 
     h1 {
@@ -25,7 +50,31 @@
       color: #fff;
       font-family: 'Rozha One', serif;
       font-weight: 300;
-      font-size: 6rem;
+      font-size: 3rem;
+
+      @media (min-with: 530px) {
+        h1 {
+          font-size: 3.5rem;
+        }
+      }
+
+      @media (min-with: 768px) {
+        h1 {
+          font-size: 4rem;
+        }
+      }
+
+      @media (min-with: 980px) {
+        h1 {
+          font-size: 6rem;
+        }
+      }
+
+      @media (min-with: 1200px) {
+        h1 {
+
+        }
+      }
     }
   }
 
@@ -46,7 +95,7 @@
     }
 
     .book-reservation {
-      margin-bottom: 10px;
+      margin-bottom: 20px;
     }
 
     h2 {

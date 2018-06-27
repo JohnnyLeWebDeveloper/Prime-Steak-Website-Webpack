@@ -7,7 +7,7 @@ export default function Reviews({state, actions}) {
         <div class="row">
           <div class="col-md-6">
             <div class="side-image">
-            <img src="/img/primerib.jpg" alt="Chef Image" />
+            <img src="/img/primerib.jpg" alt="Prime Rib" />
             </div>
           </div>
           <div class="col-md-6">

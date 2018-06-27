@@ -515,7 +515,7 @@ function Reviews(_ref) {
           (0, _hyperapp.h)(
             "div",
             { "class": "side-image" },
-            (0, _hyperapp.h)("img", { src: "/img/primerib.jpg", alt: "Chef Image" })
+            (0, _hyperapp.h)("img", { src: "/img/primerib.jpg", alt: "Prime Rib" })
           )
         ),
         (0, _hyperapp.h)(
@@ -736,7 +736,7 @@ function Top(_ref) {
         { "class": "container" },
         (0, _hyperapp.h)(
           "div",
-          { "class": "contact-info" },
+          { "class": "contact-info flexCenter rel" },
           (0, _hyperapp.h)(
             "div",
             { "class": "book-reservation" },
@@ -762,8 +762,7 @@ function Top(_ref) {
             (0, _hyperapp.h)(
               "strong",
               null,
-              "Saturday - Sunday: ",
-              (0, _hyperapp.h)("br", null)
+              "Saturday - Sunday:"
             ),
             "9AM - 11PM EST"
           )

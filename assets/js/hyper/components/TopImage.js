@@ -14,7 +14,7 @@ export default function Top({state, actions}) {
         </h1>
       </div>
       <div class="container">
-        <div class="contact-info">
+        <div class="contact-info flexCenter rel">
           <div class="book-reservation">Book Reservation Directly</div>
           <h2>123-123-1234</h2>
           <div class="hours-of-operation">
@@ -22,7 +22,7 @@ export default function Top({state, actions}) {
           <strong>Monday - Friday:
           </strong>
             9AM - 11PM EST<br/>
-          <strong>Saturday - Sunday: <br />
+          <strong>Saturday - Sunday:
             </strong>
             9AM - 11PM EST
           </div>

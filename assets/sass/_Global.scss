@@ -26,6 +26,10 @@ a {
   transition: all 0.5s ease-in-out;
 }
 
+.relative {
+  position: relative;
+}
+
 .flexCenter {
   display: -webkit-box;
   /* OLD - iOS 6-, Safari 3.1-6 */
