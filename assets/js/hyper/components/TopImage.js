@@ -19,10 +19,10 @@ export default function Top({state, actions}) {
           <h2>123-123-1234</h2>
           <div class="hours-of-operation">
             Opening Hours<br/>
-            <strong>Monday - Friday:
-            </strong>
+          <strong>Monday - Friday:
+          </strong>
             9AM - 11PM EST<br/>
-            <strong>Saturday - Sunday:
+          <strong>Saturday - Sunday: <br />
             </strong>
             9AM - 11PM EST
           </div>

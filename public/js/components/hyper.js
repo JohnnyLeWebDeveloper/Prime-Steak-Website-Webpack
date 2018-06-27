@@ -762,7 +762,8 @@ function Top(_ref) {
             (0, _hyperapp.h)(
               "strong",
               null,
-              "Saturday - Sunday:"
+              "Saturday - Sunday: ",
+              (0, _hyperapp.h)("br", null)
             ),
             "9AM - 11PM EST"
           )
