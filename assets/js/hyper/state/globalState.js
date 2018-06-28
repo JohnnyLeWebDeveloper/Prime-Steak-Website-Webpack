@@ -14,7 +14,8 @@ var companyInfo = {
 }
 
 var quote = {
-  mainQuote: 'Simple ingredients prepared in a simple way - that is the best way to take your everyday cooking to a higher level.'
+  mainQuote: 'Simple ingredients prepared in a simple way - that is the best way to take your everyday cooking to a higher level.',
+  chef: '- Chef Rachael Lindsay -',
 }
 
 export const globalState = {

@@ -118,7 +118,8 @@ var companyInfo = {
 };
 
 var quote = {
-  mainQuote: 'Simple ingredients prepared in a simple way - that is the best way to take your everyday cooking to a higher level.'
+  mainQuote: 'Simple ingredients prepared in a simple way - that is the best way to take your everyday cooking to a higher level.',
+  chef: '- Chef Rachael Lindsay -'
 };
 
 var globalState = exports.globalState = {
@@ -497,7 +498,7 @@ function RandomQuote(_ref) {
       (0, _hyperapp.h)(
         "span",
         { "class": "author" },
-        "- Chef Rachael Lindsay -"
+        state.globalState.quote.chef
       )
     )
   );
