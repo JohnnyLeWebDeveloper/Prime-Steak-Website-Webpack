@@ -117,9 +117,14 @@ var companyInfo = {
   phone: '404-245-5555'
 };
 
+var quote = {
+  mainQuote: 'Simple ingredients prepared in a simple way - that is the best way to take your everyday cooking to a higher level.'
+};
+
 var globalState = exports.globalState = {
   count: 0,
-  companyInfo: companyInfo
+  companyInfo: companyInfo,
+  quote: quote
 };
 
 /***/ }),
@@ -487,7 +492,7 @@ function RandomQuote(_ref) {
       (0, _hyperapp.h)(
         "h1",
         null,
-        "Simple ingredients prepared in a simple way - that's the best way to take your everyday cooking to a higher level."
+        state.globalState.quote.mainQuote
       ),
       (0, _hyperapp.h)(
         "span",

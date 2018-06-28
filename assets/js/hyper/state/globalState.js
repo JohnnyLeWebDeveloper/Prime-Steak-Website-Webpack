@@ -13,7 +13,12 @@ var companyInfo = {
   phone: '404-245-5555',
 }
 
+var quote = {
+  mainQuote: 'Simple ingredients prepared in a simple way - that is the best way to take your everyday cooking to a higher level.'
+}
+
 export const globalState = {
   count: 0,
-  companyInfo
+  companyInfo,
+  quote
 }
