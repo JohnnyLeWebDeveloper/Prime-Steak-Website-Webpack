@@ -102,8 +102,20 @@ function App(_ref) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+
+var companyInfo = {
+  title: 'Prime Steak Restaurant',
+  weekday: '9:00AM - 11:00PM EST',
+  weekend: '9:00AM - 11:0PM EST',
+  location: 'Atlanta, Georgia',
+  address: '435 Peachtree Road, Atlanta GA',
+  email: 'info@steakrestaurant.com',
+  phone: '123-123-1234'
+};
+
 var globalState = exports.globalState = {
-  count: 0
+  count: 0,
+  companyInfo: companyInfo
 };
 
 /***/ }),
@@ -340,11 +352,7 @@ function Header(_ref) {
     (0, _hyperapp.h)(
       "div",
       { "class": "container" },
-      (0, _hyperapp.h)(
-        "div",
-        { "class": "logo" },
-        "This is the Logo."
-      ),
+      (0, _hyperapp.h)("div", { "class": "logo" }),
       (0, _hyperapp.h)(
         "nav",
         null,

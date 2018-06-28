@@ -4,7 +4,7 @@ export default function Header({state, actions}) {
   return (<header>
     <div class="container">
       <div class="logo">
-        This is the Logo.
+        
       </div>
       <nav>
         <a href="#">Our Story</a>
