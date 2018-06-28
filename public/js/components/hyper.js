@@ -107,10 +107,10 @@ var companyInfo = {
   title: 'Prime Steak Restaurant',
   weekday: '9:00AM - 11:00PM EST',
   weekend: '9:00AM - 11:0PM EST',
-  location: 'Atlanta, Georgia',
+  city: 'Atlanta, Georgia',
   address: '435 Peachtree Road, Atlanta GA',
   email: 'info@steakrestaurant.com',
-  phone: '123-123-1234'
+  phone: '404-245-5555'
 };
 
 var globalState = exports.globalState = {
@@ -164,12 +164,12 @@ function ContactUs(_ref) {
             (0, _hyperapp.h)(
               "div",
               { "class": "city" },
-              "Atlanta, Georgia"
+              state.globalState.companyInfo.city
             ),
             (0, _hyperapp.h)(
               "h6",
               { "class": "address" },
-              "435 Peachtree Road, Atlanta GA"
+              state.globalState.companyInfo.address
             ),
             (0, _hyperapp.h)(
               "p",
@@ -179,7 +179,7 @@ function ContactUs(_ref) {
                 null,
                 "Email:"
               ),
-              "info@steakrestaurant.com"
+              state.globalState.companyInfo.email
             )
           ),
           (0, _hyperapp.h)(
@@ -193,7 +193,7 @@ function ContactUs(_ref) {
             (0, _hyperapp.h)(
               "div",
               { "class": "city" },
-              "123-123-1234"
+              state.globalState.companyInfo.phone
             ),
             (0, _hyperapp.h)(
               "h6",

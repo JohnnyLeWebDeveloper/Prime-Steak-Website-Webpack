@@ -8,14 +8,14 @@ export default function ContactUs({state, actions}) {
       <div class="box">
         <div class="row">
           <div class="col-md-6 address-height">
-            <div class="city">Atlanta, Georgia</div>
-            <h6 class="address">435 Peachtree Road, Atlanta GA</h6>
+            <div class="city">{state.globalState.companyInfo.city}</div>
+            <h6 class="address">{state.globalState.companyInfo.address}</h6>
             <p>
-              <strong>Email:</strong>info@steakrestaurant.com</p>
+              <strong>Email:</strong>{state.globalState.companyInfo.email}</p>
           </div>
           <div class="col-md-6">
             <h6>Phone:</h6>
-            <div class="city">123-123-1234</div>
+            <div class="city">{state.globalState.companyInfo.phone}</div>
             <h6>Lunch Service:</h6>
             <p>Friday, Saturday, & Sunday
               <br/>
