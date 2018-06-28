@@ -738,9 +738,7 @@ function Top(_ref) {
         (0, _hyperapp.h)(
           "h1",
           null,
-          "Prime Steak",
-          (0, _hyperapp.h)("br", null),
-          "Restaurant"
+          state.globalState.companyInfo.title
         )
       ),
       (0, _hyperapp.h)(
@@ -759,14 +757,14 @@ function Top(_ref) {
               null,
               "Monday - Friday:"
             ),
-            "9AM - 11PM EST",
+            state.globalState.companyInfo.weekday,
             (0, _hyperapp.h)("br", null),
             (0, _hyperapp.h)(
               "strong",
               null,
               "Saturday - Sunday:"
             ),
-            "9AM - 11PM EST"
+            state.globalState.companyInfo.weekend
           )
         )
       )

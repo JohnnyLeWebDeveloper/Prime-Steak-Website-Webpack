@@ -8,9 +8,7 @@ export default function Top({state, actions}) {
           Welcome to
         </h5>
         <h1>
-          Prime Steak
-          <br/>
-          Restaurant
+          {state.globalState.companyInfo.title}
         </h1>
       </div>
       <div class="container">
@@ -19,10 +17,10 @@ export default function Top({state, actions}) {
             Opening Hours<br/>
           <strong>Monday - Friday:
           </strong>
-            9AM - 11PM EST<br/>
+            {state.globalState.companyInfo.weekday}<br/>
           <strong>Saturday - Sunday:
             </strong>
-            9AM - 11PM EST
+            {state.globalState.companyInfo.weekend}
           </div>
         </div>
       </div>
