@@ -1,6 +1,10 @@
 #our-story {
   padding: 100px 0;
 
+  .comp-title {
+    text-align: center;
+  }
+
   h5 {
     color: $titleColor;
     font-size: 1.1rem;
@@ -8,6 +12,7 @@
   }
 
   h2 {
+    text-align: center;
     color: $blackColor;
     font-size: 2rem;
     margin: 0.5rem 0 3rem;
@@ -32,18 +37,21 @@
     }
   }
 
-  .reserve-button {
-    margin-bottom: 30px;
-    padding: 20px 40px;
-    border: 1px solid #000;
-    display: inline-block;
-    color: #000;
-    text-transform: uppercase;
-    transition: all 0.6s ease-in-out;
+  #reserve-button {
+    text-align: center;
+    .reserve-button {
+      margin-bottom: 30px;
+      padding: 20px 40px;
+      border: 1px solid #000;
+      display: inline-block;
+      color: #000;
+      text-transform: uppercase;
+      transition: all 0.6s ease-in-out;
 
-    &:hover {
-      background-color: $redColor;
-      color: $blackColor;
+      &:hover {
+        background-color: $redColor;
+        color: $blackColor;
+      }
     }
   }
 }

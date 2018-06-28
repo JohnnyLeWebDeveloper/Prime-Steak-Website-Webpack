@@ -15,34 +15,10 @@
     margin: 0 auto;
 
     h5 {
-      font-size: 12px;
+      font-size: 16px;
       text-transform: uppercase;
       color: #fff;
       font-weight: 300;
-    }
-
-    @media (min-with: 530px) {
-      h5 {
-        font-size: 14px;
-      }
-    }
-
-    @media (min-with: 768px) {
-      h5 {
-
-      }
-    }
-
-    @media (min-with: 980px) {
-      h5 {
-
-      }
-    }
-
-    @media (min-with: 1200px) {
-      h5 {
-
-      }
     }
 
     h1 {
@@ -50,31 +26,7 @@
       color: #fff;
       font-family: 'Rozha One', serif;
       font-weight: 300;
-      font-size: 3rem;
-
-      @media (min-with: 530px) {
-        h1 {
-          font-size: 3.5rem;
-        }
-      }
-
-      @media (min-with: 768px) {
-        h1 {
-          font-size: 4rem;
-        }
-      }
-
-      @media (min-with: 980px) {
-        h1 {
-          font-size: 6rem;
-        }
-      }
-
-      @media (min-with: 1200px) {
-        h1 {
-
-        }
-      }
+      font-size: 3.8rem;
     }
   }
 
@@ -102,6 +54,10 @@
       font-size: 2rem;
       margin-bottom: 20px;
       color: #fff;
+    }
+    .hours-of-operation {
+      position: absolute;
+      bottom: 0;
     }
   }
 }

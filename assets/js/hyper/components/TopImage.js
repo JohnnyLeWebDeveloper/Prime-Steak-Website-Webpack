@@ -14,9 +14,7 @@ export default function Top({state, actions}) {
         </h1>
       </div>
       <div class="container">
-        <div class="contact-info flexCenter rel">
-          <div class="book-reservation">Book Reservation Directly</div>
-          <h2>123-123-1234</h2>
+        <div class="contact-info flexCenter">
           <div class="hours-of-operation">
             Opening Hours<br/>
           <strong>Monday - Friday:

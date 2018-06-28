@@ -11,7 +11,9 @@ export default function OurStory({state, actions}) {
           <div class="quote">"The best Steakhouse in town." -
             <strong>Loyal Customer</strong>
           </div>
-          <a href="#" class="reserve-button">Reserve</a>
+          <div id="reserve-button">
+            <a href="#" class="reserve-button">Reserve</a>
+            </div>
         </div>
         <div class="col-md-6">
           <div class="video-image"></div>

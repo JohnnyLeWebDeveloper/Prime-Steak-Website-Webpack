@@ -343,7 +343,7 @@ function Header(_ref) {
       (0, _hyperapp.h)(
         "div",
         { "class": "logo" },
-        "Logo"
+        "This is the Logo."
       ),
       (0, _hyperapp.h)(
         "nav",
@@ -429,9 +429,13 @@ function OurStory(_ref) {
             )
           ),
           (0, _hyperapp.h)(
-            "a",
-            { href: "#", "class": "reserve-button" },
-            "Reserve"
+            "div",
+            { id: "reserve-button" },
+            (0, _hyperapp.h)(
+              "a",
+              { href: "#", "class": "reserve-button" },
+              "Reserve"
+            )
           )
         ),
         (0, _hyperapp.h)(
@@ -736,17 +740,7 @@ function Top(_ref) {
         { "class": "container" },
         (0, _hyperapp.h)(
           "div",
-          { "class": "contact-info flexCenter rel" },
-          (0, _hyperapp.h)(
-            "div",
-            { "class": "book-reservation" },
-            "Book Reservation Directly"
-          ),
-          (0, _hyperapp.h)(
-            "h2",
-            null,
-            "123-123-1234"
-          ),
+          { "class": "contact-info flexCenter" },
           (0, _hyperapp.h)(
             "div",
             { "class": "hours-of-operation" },
