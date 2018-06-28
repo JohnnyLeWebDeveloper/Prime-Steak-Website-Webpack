@@ -17,13 +17,13 @@ export default function ContactUs({state, actions}) {
             <h6>Phone:</h6>
             <div class="city">{state.globalState.companyInfo.phone}</div>
             <h6>Lunch Service:</h6>
-            <p>Friday, Saturday, & Sunday
+            <p>{state.globalState.companyInfo.lunch}
               <br/>
-              Bookings from 12PM-2PM</p>
+              {state.globalState.companyInfo.lunchHours}</p>
             <h6>Dinner Service:</h6>
-            <p>Daily
+            <p>{state.globalState.companyInfo.dinner}
               <br/>
-              Bookings from 5PM-9:30PM</p>
+              {state.globalState.companyInfo.dinnerHours}</p>
           </div>
         </div>
       </div>

@@ -107,6 +107,10 @@ var companyInfo = {
   title: 'Prime Steak Restaurant',
   weekday: '9:00AM - 11:00PM EST',
   weekend: '9:00AM - 11:0PM EST',
+  lunch: 'Friday, Saturday, & Sunday',
+  lunchHours: 'Bookings from 12PM-2PM',
+  dinner: 'Daily',
+  dinnerHours: 'Bookings from 5PM-9PM',
   city: 'Atlanta, Georgia',
   address: '435 Peachtree Road, Atlanta GA',
   email: 'info@steakrestaurant.com',
@@ -203,9 +207,9 @@ function ContactUs(_ref) {
             (0, _hyperapp.h)(
               "p",
               null,
-              "Friday, Saturday, & Sunday",
+              state.globalState.companyInfo.lunch,
               (0, _hyperapp.h)("br", null),
-              "Bookings from 12PM-2PM"
+              state.globalState.companyInfo.lunchHours
             ),
             (0, _hyperapp.h)(
               "h6",
@@ -215,9 +219,9 @@ function ContactUs(_ref) {
             (0, _hyperapp.h)(
               "p",
               null,
-              "Daily",
+              state.globalState.companyInfo.dinner,
               (0, _hyperapp.h)("br", null),
-              "Bookings from 5PM-9:30PM"
+              state.globalState.companyInfo.dinnerHours
             )
           )
         )
